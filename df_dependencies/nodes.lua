@@ -38,7 +38,7 @@ end)
 
 
 df_dependencies.node_name_apple = select_required({"default:apple", "mcl_core:apple"})
-df_dependencies.node_name_chest = select_required({"default:chest", "mcl_chests:chest"})
+df_dependencies.node_name_chest = select_required({"default:chest", "mcl_chests:chest_small"})
 df_dependencies.node_name_coalblock = select_required({"default:coalblock", "mcl_core:coalblock"})
 df_dependencies.node_name_coal_lump = select_required({"default:coal_lump", "mcl_core:coal_lump"})
 df_dependencies.node_name_cobble = select_required({"default:cobble", "mcl_core:cobble"})
