@@ -8,6 +8,7 @@ df_dependencies.select_required = function(def)
 	for _, dependency in ipairs(def) do
 		local mod = dependency[1]
 		local item = dependency[2]
+		if mod == "mesecons" then mod = "mcl_redstone" end
 		df_dependencies.mods_required[mod] = true
 		if minetest.get_modpath(mod) then
 			ret = item
