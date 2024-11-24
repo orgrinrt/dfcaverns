@@ -38,7 +38,7 @@ end)
 
 
 df_dependencies.node_name_apple = select_required({"default:apple", "mcl_core:apple"})
-df_dependencies.node_name_chest = select_required({"default:chest", "mcl_chests:chest"})
+df_dependencies.node_name_chest = select_required({"default:chest", "mcl_chests:chest_small"})
 df_dependencies.node_name_coalblock = select_required({"default:coalblock", "mcl_core:coalblock"})
 df_dependencies.node_name_coal_lump = select_required({"default:coal_lump", "mcl_core:coal_lump"})
 df_dependencies.node_name_cobble = select_required({"default:cobble", "mcl_core:cobble"})
@@ -52,9 +52,9 @@ df_dependencies.node_name_furnace = select_required({"default:furnace", "mcl_fur
 df_dependencies.node_name_gold_ingot = select_required({"default:gold_ingot", "mcl_core:gold_ingot"})
 df_dependencies.node_name_gravel = select_required({"default:gravel", "mcl_core:gravel"})
 df_dependencies.node_name_ice = select_required({"default:ice", "mcl_core:ice"})
-df_dependencies.node_name_junglewood = select_required({"default:junglewood", "mcl_core:junglewood"})
+df_dependencies.node_name_junglewood = select_required({"default:junglewood", "mcl_trees:wood_jungle", "mcl_core:junglewood"})
 df_dependencies.node_name_lava_source = select_required({"default:lava_source", "mcl_core:lava_source"})
-df_dependencies.node_name_mese_crystal = select_required({"mesecons:wire_00000000_off", "default:mese_crystal"}) --make sure default:mese_crystal is second, so that default will take priority if mesecons is also installed.
+df_dependencies.node_name_mese_crystal = select_required({"mesecons:wire_00000000_off", "default:mese_crystal", "mcl_redstone:redstone"}) --make sure default:mese_crystal is second, so that default will take priority if mesecons is also installed.
 df_dependencies.node_name_mossycobble = select_required({"default:mossycobble", "mcl_core:mossycobble"})
 df_dependencies.node_name_obsidian = select_required({"default:obsidian", "mcl_core:obsidian"})
 df_dependencies.node_name_paper = select_required({"default:paper", "mcl_core:paper"})
